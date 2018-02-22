@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="mapkey.js" type="text/javascript"></script>
+        <script>
+        var mMapKey_Params = [
+            {
+                keycode: ["1"],
+                repeat : 2,
+                callback :  function(){
+                                           alert("executed");
+                                        }
+            },
+            {
+                keycode: ["ctrl+a"],
+                multiple: 1,
+                callback : function(){
+                    alert("executed");
+                }
+            }
+        ]
+        $(document).ready(function(){
+
+            new mMapKey().init(mMapKey_Params);
+
+        });
+        </script>
+    </head>
+    <body>
+        1. double press key 1 from keyboard<br />
+        2. press ctrl+1 or ctrl+2 from keyboard
+    </body>
+</html>
