@@ -1,3 +1,11 @@
+/*
+ * jQuery mMapKey v.1
+ *
+ * Copyright (c) 2018 Dario Montalbano
+ * 
+ * 
+ */
+
 var mMapKey = function(){
 
   var _this = this;
