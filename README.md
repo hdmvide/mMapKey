@@ -1,6 +1,6 @@
 # mMapKey
 
-**mMapKey** is a plugin that permit, by the parameters configuration, apply a keyboard shortcuts on document of the your webage
+**mMapKey** is a jQuery plugin that permit, by the parameters configuration, apply a keyboard shortcuts on document of the your webage
 
 An Example of a only shortcut with double press:
 
