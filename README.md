@@ -29,7 +29,6 @@ An Example of a only shortcut with key combination. Key combination requires a m
 var mMapKey_Params = [
     {
         keycode: ["ctrl+a", ...],
-        multiple: 1,
         callback : function(){
             alert("executed");
         }
